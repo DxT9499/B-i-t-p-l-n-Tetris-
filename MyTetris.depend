@@ -1,0 +1,85 @@
+# depslib dependency file v1.0
+1522226360 source:c:\users\123456789\documents\mytetris\main.cpp
+
+1526027735 source:c:\users\123456789\documents\mytetris\tetrismain.cpp
+	<iostream>
+	<SDL.h>
+	<string>
+	<ctime>
+	"Create.h"
+
+1525246560 source:c:\users\123456789\documents\mytetris\load.cpp
+	<iostream>
+	"load.h"
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+
+1525246559 c:\users\123456789\documents\mytetris\load.h
+	<SDL.h>
+	<string>
+
+1526911625 source:c:\users\123456789\documents\mytetris\check.cpp
+	"Perform.h"
+	<iostream>
+	<SDL_mixer.h>
+	"Create.h"
+
+1526028880 c:\users\123456789\documents\mytetris\perform.h
+	<SDL.h>
+	<string>
+
+1525886769 source:c:\users\123456789\documents\mytetris\control.cpp
+	"Check.h"
+	<string>
+	<SDL.h>
+	"Control.h"
+	"Process.h"
+
+1526011976 c:\users\123456789\documents\mytetris\check.h
+	"Perform.h"
+	<SDL_mixer.h>
+
+1525886794 c:\users\123456789\documents\mytetris\control.h
+	<SDL.h>
+	"Perform.h"
+
+1526028880 source:c:\users\123456789\documents\mytetris\perform.cpp
+	<iostream>
+	"Perform.h"
+	<string>
+	<SDL.h>
+	<fstream>
+
+1525421407 c:\users\123456789\documents\mytetris\text.h
+	<iostream>
+	"SDL.h"
+	"SDL_ttf.h"
+
+1525519780 source:c:\users\123456789\documents\mytetris\text.cpp
+	"text.h"
+
+1526028432 source:c:\users\123456789\documents\mytetris\create.cpp
+	"Create.h"
+	<SDL.h>
+	<iostream>
+	<SDL_mixer.h>
+	"Check.h"
+	"Process.h"
+
+1526011976 c:\users\123456789\documents\mytetris\create.h
+	<SDL.h>
+	"Perform.h"
+
+1526910977 c:\users\123456789\documents\mytetris\process.h
+	<SDL.h>
+	"Perform.h"
+
+1526910791 source:c:\users\123456789\documents\mytetris\process.cpp
+	"Check.h"
+	<string>
+	<SDL.h>
+	"Perform.h"
+	<stdlib.h>
+	"Process.h"
+
