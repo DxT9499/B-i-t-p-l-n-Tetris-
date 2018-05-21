@@ -32,14 +32,14 @@ bool Init(SDL_Renderer** renderer, SDL_Window* window)
 	return success;
 }
 
-void Clean(SDL_Window** window,SDL_Renderer** renderer,SDL_Texture* color_block[TOTAL])
+void Clean(SDL_Window** window,SDL_Renderer** renderer,SDL_Texture* colorBlock[TOTAL])
 {
     SDL_DestroyWindow(*window);
     SDL_DestroyRenderer(*renderer);
     for (int i=0;i<TOTAL;i++)
     {
-        SDL_DestroyTexture(color_block[i]);
-        color_block[i] = NULL;
+        SDL_DestroyTexture(colorBlock[i]);
+        colorBlock[i] = NULL;
     }
     Mix_CloseAudio();
     *window = NULL;
